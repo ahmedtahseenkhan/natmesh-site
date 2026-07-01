@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers static-assets config.
+  // Assets are served from ./public so the repo's .git folder and this
+  // config never get uploaded as site content.
+  "name": "natmesh-site",
+  "compatibility_date": "2026-07-01",
+  "assets": {
+    "directory": "./public"
+  }
+}
